@@ -93,7 +93,7 @@ async function main() {
         resultText.textContent = '正しい住所を入力してください';
       }
     })();
-    // 戻り値をfalseにして、formのsubmitが常に成功しないようにする
+    // 戻り値をfalseにして、formのsubmitが常に成功しないようにする.
     return false;
   };
 }
